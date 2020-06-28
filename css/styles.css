@@ -1,5 +1,5 @@
 body {
-    background-color: black;
+    background-color: #EBEBEB;
     color: gray;
 }
 
@@ -12,7 +12,7 @@ nav a {
     padding-bottom: 4px;
     font-size: 1.8em;
     text-decoration: none;
-    color: white;
+    color: #AB3428;
 }
 
 nav a:hover {
@@ -22,7 +22,18 @@ nav a:hover {
 }
 
 nav a:visited {
-    color: red; 
+    color: #310D20; 
+}
+
+nav a:active {
+    color: #FE5F55;
+}
+
+h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 4em;
+    margin: 0px;
+    color: #133C55;
 }
 
 main {
@@ -30,6 +41,62 @@ main {
     justify-content: center;
 }
 
-#footer-text {
-    font-size: 20px;
+#home-text-div {
+    margin: auto 0;
+}
+
+.home-text {
+    color: #310D20;
+}
+
+.footer-text {
+    font-size: 1em;
+    justify-content: center;
+    color: #310D20;
+}
+
+#table {
+    margin: 0px auto;
+}
+
+td {
+    justify-content: center;
+    font-size: 1.3em;
+}
+
+.table-header {
+    background-color: #918450;
+}
+
+.table-header-text {
+    color: #2F2F2F;
+}
+
+.table-row {
+    background-color: #3C91E6;
+}
+
+.table-text {
+    color: black;
+}
+
+ul {
+    width: 500px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.hobby {
+    justify-content: center;
+    color: #310D20;
+}
+
+#interests {
+    margin: 0px auto;
+}
+
+#contact-me {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
 }
